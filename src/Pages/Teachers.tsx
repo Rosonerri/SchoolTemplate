@@ -16,7 +16,7 @@ const Teachers = () => {
             interdum, mauris quis cursus sodales, urn
           </p>
         </div>
-        <div className="text-center grid grid-cols-2 gap-6 md:grid-cols-4 xl:grid-cols-4">
+        <div className="text-center grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
           <div className="rounded-[10px] h-[70vh] overflow-hidden relative">
             <div className="h-[88%] w-[100%] bg-slate-200 rounded-[20px] overflow-hidden">
               <img src={img} alt="" className="w-full h-full"/>
