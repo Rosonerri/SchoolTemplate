@@ -8,9 +8,9 @@ const WelcomePage = () => {
     <div className="w-full min-h-[100vh] flex justify-center items-center">
       <div className="h-full w-[95%]">
         <div className="w-full flex justify-center items-center flex-col">
-          <div className="text-[35px] mt-[10px]">
+          <div className="text-[25px] mt-[40px] uppercase font-[600] xl:text-[35px]">
             Welcome to{" "}
-            <span className="font-[400] text-blue-950">Prime-College</span>
+            <span className="text-blue-950 font-[600]">CodeLab</span>
           </div>
           <p className="text-center font-[500] md:w-[50%] mb-[20px]">
             Nunc consectetur ex nunc, id porttitor leo semper eget. Vivamus

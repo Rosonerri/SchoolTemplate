@@ -10,7 +10,7 @@ const Teachers = () => {
     <div className="w-full min-h-[100vh] flex justify-center items-center">
       <div className="h-full w-[95%]">
         <div className="w-full flex justify-center items-center flex-col">
-          <div className="text-[35px] mt-[10px]">Our Awesome Teachers</div>
+          <div className="text-[23px] mt-[50px] font-[600] uppercase xl:text-[35px]">Our Awesome Teachers</div>
           <p className="text-center font-[500] md:w-[50%] mb-[20px]">
             Nunc consectetur ex nunc, id porttitor leo semper eget. Vivamus
             interdum, mauris quis cursus sodales, urn
