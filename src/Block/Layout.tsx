@@ -6,6 +6,7 @@ import Footer from "../Pages/Footer";
 import Footer2 from "../Pages/Footer2";
 import Scroll from "./Scroll";
 import Contact from "../Pages/Contact";
+import Gallery from "../Pages/Gallery";
 const Layout = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Layout = () => {
       <Outlet />
       <WelcomePage />
       <Teachers />
+      <Gallery/>
       <Contact />
       <Scroll />
       <Footer2 />
