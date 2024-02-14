@@ -10,32 +10,34 @@ import GalleryProps from "./Props/GalleryProps";
 const Gallery = () => {
   return (
     <div className="flex justify-center items-center">
-      <div className="w-[85%] flex justify-center items-center flex-col">
-        <div className="text-[25px] font-bold text-blue-950">
-          OUR PHOTO GALLERY
-        </div>
-        <div className="font-medium text-center text-blue-950">
-          Stay up to date with all our latest news and launches. Only the best
-          quality makes it onto our blog!
-        </div>
-        <div className="w-full  py-[50px] gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 place-items-center ">
-          <div className="w-[100%] flex justify-center items-center">
-            <GalleryProps img={gallery1} />
+      <div className=" flex justify-center items-center w-[90%]">
+        <div className="w-[85%] flex justify-center items-center flex-col">
+          <div className="text-[25px] font-bold text-blue-950">
+            OUR PHOTO GALLERY
           </div>
-          <div className="w-[100%] flex justify-center items-center">
-            <GalleryProps img={gallery2} />
+          <div className="font-medium text-center text-blue-950">
+            Stay up to date with all our latest news and launches. Only the best
+            quality makes it onto our blog!
           </div>
-          <div className="w-[100%] flex justify-center items-center">
-            <GalleryProps img={gallery3} />
-          </div>
-          <div className="w-[100%] flex justify-center items-center">
-            <GalleryProps img={gallery4} />
-          </div>
-          <div className="w-[100%] flex justify-center items-center">
-            <GalleryProps img={gallery5} />
-          </div>
-          <div className="w-[100%] flex justify-center items-center">
-            <GalleryProps img={gallery6} />
+          <div className="w-full  py-[50px] gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center lg:gap-4">
+            <div className="w-[100%] flex justify-center items-center">
+              <GalleryProps img={gallery1} />
+            </div>
+            <div className="w-[100%] flex justify-center items-center">
+              <GalleryProps img={gallery2} />
+            </div>
+            <div className="w-[100%] flex justify-center items-center">
+              <GalleryProps img={gallery3} />
+            </div>
+            <div className="w-[100%] flex justify-center items-center">
+              <GalleryProps img={gallery4} />
+            </div>
+            <div className="w-[100%] flex justify-center items-center">
+              <GalleryProps img={gallery5} />
+            </div>
+            <div className="w-[100%] flex justify-center items-center">
+              <GalleryProps img={gallery6} />
+            </div>
           </div>
         </div>
       </div>
